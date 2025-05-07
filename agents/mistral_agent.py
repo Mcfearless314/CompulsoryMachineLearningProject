@@ -35,7 +35,8 @@ You are an intelligent Evaluation Agent which evaluates the Research Agents answ
 )
 
 critic_prompt = f"""
-You are evaluating an AI product recommendation agent.
+You are evaluating an AI agent that searches the web for research papers about a given topic that are published in a given time period and
+have a given minimum number of citations.
 
 Evaluate the response based on these criteria:
 Completeness (1-5): addresses every part of the request.
